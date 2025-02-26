@@ -63,9 +63,6 @@ df_ad = pd.read_csv(ad_excel_file_name, encoding='utf-8')
 print(df_ad.head(3))
 
 
-
-# tokenize_text(df_gambling.loc[0]['html_korean'])
-
 # 토큰화하여 파일만들기
 gambling_tokenized_file_name = "gambling_tokenized_html_korean.csv"
 make_tokenized_csv_file(gambling_excel_file_name, 'html_korean', gambling_tokenized_file_name)
